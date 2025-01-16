@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: white;
+    display: flex;
+    justify-content: center;   /* Center everything horizontally */
+    align-items: center;       /* Center everything vertically */
+    height: 100vh;              /* Full height of the viewport */
+    margin: 0;                  /* Remove default margin */
+}
+
+.container {
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 36px;
+    color: #333;
+}
+
+
+.wheel img {
+    width: 15%;
+    height: 15%;
+    border-radius: 0%;
+}
+
+.scolarest-img {
+    width: 200px;
+    height: 200px;
+    margin: 20px auto;
+}
+
+.instructions {
+    margin: 20px;
+}
+
+.swipe-button {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 20px;    /* Add some space above the button */
+}
+}

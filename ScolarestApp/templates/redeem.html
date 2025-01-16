@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Redeem</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div class="container">
+        <img src="{{ url_for('static', filename='scolarest.png') }}" alt="Scolarest Image" width="200" height="100">
+        <div class="wheel">
+		<img src="{{ url_for('static', filename='wheel.png') }}" alt="Wheel Diagram" width="200" height="200">
+        </div>
+        <p>{{ current_time }}</p>
+        <div class="instructions">
+            <p>Congratulations! You must now present this page to a member of the Scolarest on-site catering team who will instruct you as to how to get your reward.</p>
+            <p>click to redeem.</p>
+        </div>
+        <a href="/redeemed" class="swipe-button">CLICK TO REDEEM</a>
+    </div>
+</body>
+</html>
